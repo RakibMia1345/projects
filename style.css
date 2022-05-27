@@ -16,19 +16,20 @@ p{
     color: orange;
 }
 .top-banner{
+    display: flex;
     border: 1px solid rgb(36, 221, 79);
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .half-width{
     width: 40%;
-    float:left;
+    
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
-    width:100% ;
-    padding-top: 30%;
+    width:50% ;
+
 }
 .link-button{
     text-decoration: none;
@@ -44,9 +45,9 @@ p{
       
 }
 .dream-area{
+    display: flex;
     width: 80%;
     height: 0%;
-    float: left;
     padding:10% 2%;
     background-image:url("images/dream-bg.png") ;
     background-repeat: no-repeat;
@@ -55,7 +56,7 @@ p{
 .half-widtha{
     width: 40%;
     height: 80%;
-    float: left;
+   
     margin-left: 10%;
     padding-left: 3%;
     padding-bottom: 10%;
@@ -77,4 +78,7 @@ p{
 footer p{
     text-align: center;
     font-size: 15px;
+}
+.experience-area{
+    display: flex;
 }
