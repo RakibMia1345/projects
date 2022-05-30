@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.green{
+    color: green;
+}
+h1{
+    font-size: 30px;
+}
+.part{
+display: flex;
+padding-left: 10px;
+margin: 5px;
+
+}
+
+.half-width{
+    width: 100%;
+}
+.half-width img{
+    width: 100%;
+    width: 80%;
+    padding: 30px 90px 80px 0px;
+    
+}
+p{
+    color: rgb(11, 125, 238);
+}
+.link-button{
+    color: hsla(180, 40%, 13%, 0.944);
+    border-radius: 3px;
+    font-size: 20px;
+    font-family:700px ;
+    text-decoration: none;
+    padding: 2px 2px;
+    background-color: chartreuse;
+    
+}
+h3{
+    color: rgb(6, 139, 139);
+       text-align: center;
+}
+.yellow{
+    color: rgb(115, 0, 255);
+}
